@@ -32,12 +32,54 @@ h1{
 iframe{
     animation: fadein 1s forwards;
 }
+img{
+    animation: fadein 1s forwards;
+}
+h2{
+    animation: fadein 1s forwards;
+}
 @keyframes fadein {
     from{
         opacity: 0;
     }
     to{
         opacity: 1;
-        transform: translateY(20px);
+        transform: translateX(20px);
     }
 }
+
+.short {
+    top: 315px;   
+
+}
+
+
+  .short-text {
+    top: 270px;   
+
+}
+
+img,
+picture,
+video,
+iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.meule-h1 {
+    left: 100px;  
+    top: 400px; 
+
+}
+
+.meule-h2 {
+    left: 0px;  
+    top: 440px; 
+
+}
+
+img {
+    left: -90px;
+}
+
