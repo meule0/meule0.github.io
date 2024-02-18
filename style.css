@@ -10,11 +10,7 @@ body {
 }
 
 body {
-    background: #8A2BE2;
-    padding: 0 24px;
     color: rgb(255, 255, 255); /* Change my color to yellow */
-    margin: 0;
-    height: 100vh;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -82,4 +78,5 @@ iframe {
 img {
     left: -90px;
 }
+
 
